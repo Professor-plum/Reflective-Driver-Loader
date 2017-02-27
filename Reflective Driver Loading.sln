@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reflective_driver", "reflective_driver\reflective_driver.vcxproj", "{E4B8D158-5A26-4F5D-9F28-5BB4C5BF5D83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hadouken", "Hadouken\Hadouken.vcxproj", "{614EAE10-FEDB-45B4-9D8A-617CDAD8BB0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Win8.1 Release|x64 = Win8.1 Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4B8D158-5A26-4F5D-9F28-5BB4C5BF5D83}.Debug|x64.ActiveCfg = Win8.1 Debug|x64
+		{E4B8D158-5A26-4F5D-9F28-5BB4C5BF5D83}.Debug|x64.Build.0 = Win8.1 Debug|x64
+		{E4B8D158-5A26-4F5D-9F28-5BB4C5BF5D83}.Win8.1 Release|x64.ActiveCfg = Win8.1 Release|x64
+		{E4B8D158-5A26-4F5D-9F28-5BB4C5BF5D83}.Win8.1 Release|x64.Build.0 = Win8.1 Release|x64
+		{614EAE10-FEDB-45B4-9D8A-617CDAD8BB0A}.Debug|x64.ActiveCfg = Debug|x64
+		{614EAE10-FEDB-45B4-9D8A-617CDAD8BB0A}.Debug|x64.Build.0 = Debug|x64
+		{614EAE10-FEDB-45B4-9D8A-617CDAD8BB0A}.Win8.1 Release|x64.ActiveCfg = Release|x64
+		{614EAE10-FEDB-45B4-9D8A-617CDAD8BB0A}.Win8.1 Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
