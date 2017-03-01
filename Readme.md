@@ -11,7 +11,7 @@ An exploit for the Capcom driver is also included as a simple usage example.
 Overview
 ========
 
-The process of injecting a driver into the kernel is two fold. Firstly, the driver you wish to inject must be written into the kernel address space. Secondly the driver must be loaded into kernel in such a way that the driver's run time expectations are met, such as resolving its imports or relocating it to a suitable location in memory.
+The process of injecting a driver into the kernel is twofold. Firstly, the driver you wish to inject must be written into the kernel address space. Secondly the driver must be loaded into kernel in such a way that the driver's run time expectations are met, such as resolving its imports or relocating it to a suitable location in memory.
 
 Assuming we have ring0 code execution and the driver we wish to inject has been written into an arbitrary location of memory kernel, Reflective Driver Injection works as follows.
 
